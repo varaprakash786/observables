@@ -1,0 +1,26 @@
+.present-date {
+  background-color: blue !important; /* Example styling */
+  color: white !important;
+  border-radius: 50% !important;
+}
+
+/* For Angular Material's specific classes */
+.mat-calendar-body-cell .present-date {
+  /* Ensure the style applies to the inner content div */
+  background-color: blue !important;
+  color: white !important;
+}
+
+.absent-date {
+    background-color: brown;
+}
+
+.demo-inline-calendar-card {
+  width: 500px;
+}
+
+.mat-calendar-body-cell {
+    background-color: brown;
+}
+
+
